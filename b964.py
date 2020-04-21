@@ -15,9 +15,9 @@ while True:
         maxS = -99
         minS = 99
         for i in range(times):
-            if score[i] < 60 and score[i] > maxS:
+            if 60 > score[i] > maxS:
                 maxS = score[i]
-            if score[i] >= 60 and score[i] < minS:
+            if 60 <= score[i] < minS:
                 minS = score[i]
 
         print("best case" if maxS == -99 else maxS)
