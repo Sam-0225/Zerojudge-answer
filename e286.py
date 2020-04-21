@@ -6,16 +6,15 @@ Created on Sat Apr  6 19:53:44 2019
 @author: sam0225
 """
 
-score = [0]*4
+score = [0] * 4
 for i in range(4):
     score[i] = sum(map(int, input().split()))
 print(str(score[0]) + ":" + str(score[1]))
 print(str(score[2]) + ":" + str(score[3]))
 
-
-if score[0]>score[1] and score[2]>score[3]:
+if score[0] > score[1] and score[2] > score[3]:
     print("Win")
-elif not score[0]>score[1] and not score[2]>score[3]:
+elif not score[0] > score[1] and not score[2] > score[3]:
     print("Lose")
 else:
     print("Tie")
@@ -41,4 +40,3 @@ else:
 #     print("Lose")
 # else:
 #     print("Tie")
-

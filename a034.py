@@ -8,6 +8,6 @@ Created on Sat Apr  6 20:09:23 2019
 
 while True:
     try:
-        print(bin(int(input())).replace("0b",""))
+        print(bin(int(input())).replace("0b", ""))
     except:
         break

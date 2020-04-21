@@ -11,19 +11,19 @@ while True:
             pre.append(list(map(int, input().split())))
         op = list(map(int, input().split()))
 
-        for opm in range(M-1, -1, -1):
-            if op[opm] == 0:#逆旋轉
-                nxt = [[0]*R for i in range(C)]
+        for opm in range(M - 1, -1, -1):
+            if op[opm] == 0:  # 逆旋轉
+                nxt = [[0] * R for i in range(C)]
                 for i in range(R):
                     for j in range(C):
-                        nxt[C-1-j][i] = pre[i][j]
+                        nxt[C - 1 - j][i] = pre[i][j]
                 R, C = C, R
                 pre = nxt
             else:
                 nxt = [[0] * C for i in range(R)]
                 for i in range(R):
                     for j in range(C):
-                        nxt[R-1-i][j] = pre[i][j]
+                        nxt[R - 1 - i][j] = pre[i][j]
                 pre = nxt
 
         print(str(R) + " " + str(C))

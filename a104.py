@@ -11,3 +11,4 @@ while 1:
         print(' '.join(str(i) for i in sorted(map(int, input().split()))))
     except:
         break
+

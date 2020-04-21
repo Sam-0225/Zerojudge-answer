@@ -8,6 +8,6 @@ Created on Sat Apr  6 19:15:41 2019
 
 while True:
     try:
-        print(eval(input().replace("/","//")))
+        print(eval(input().replace("/", "//")))
     except:
         break

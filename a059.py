@@ -19,3 +19,4 @@ while True:
             print("Case " + str(i + 1) + ": "+str(sum))
     except:
         break
+

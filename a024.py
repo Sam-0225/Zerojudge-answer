@@ -7,13 +7,14 @@ Created on Sat Apr  6 19:58:44 2019
 """
 
 import math
+
 while True:
     try:
-        a, b= map(int, input().split())
-        print(math.gcd(a,b))
+        a, b = map(int, input().split())
+        print(math.gcd(a, b))
     except:
         break
-    
+
 """
 while True:
     try:

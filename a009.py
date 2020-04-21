@@ -17,4 +17,4 @@ while True:
         print(plaintext)
     except:
         break
-    
+
