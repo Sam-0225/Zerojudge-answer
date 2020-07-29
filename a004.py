@@ -22,7 +22,7 @@ while True:
     try:
         y = int(input())
         check_year=calendar.isleap(y)
-        if check_year == True:
+        if check_year:
             print("閏年")
         else:
             print("平年")

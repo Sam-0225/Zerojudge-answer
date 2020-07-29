@@ -6,6 +6,5 @@ while True:
             print("At School")
         else:
             print("Off School")
-
     except:
         break
