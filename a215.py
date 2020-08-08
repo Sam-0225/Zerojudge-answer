@@ -8,7 +8,7 @@ while True:
             total += n
             count += 1
             n += 1
-            if total > m: #測資輸入可能有負數
+            if total > m:  # 測資輸入可能有負數
                 break
         print(count)
     except:

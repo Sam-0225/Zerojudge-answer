@@ -15,4 +15,3 @@ for _ in range(times):
     else:
         e = (b // a) * d
     print(a, b, c, d, e)
-
