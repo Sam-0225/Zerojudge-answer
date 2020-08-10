@@ -4,7 +4,5 @@ https://info.mail.pcsh.ntpc.edu.tw/py/python4apcs
 """
 
 
+a, b, c = map(int, input().split())
 
-a = ['I','am','fdf','gfds','fdg']
-a[4] = 'dsgfjkdasbgjkfsabgjk'
-print(a)

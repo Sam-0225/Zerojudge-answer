@@ -13,9 +13,14 @@ import math
 
 # 方法三
 # print(int((int(input())**2)**0.5))
-
 # 方法四
 print(int(math.sqrt(math.pow(int(input()), 2))))
+
+
+
+
+
+
 
 # 方法五
 # a = int(input())
