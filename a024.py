@@ -8,16 +8,11 @@ Created on Sat Apr  6 19:58:44 2019
 
 import math
 
-while True:
-    try:
-        a, b = map(int, input().split())
-        print(math.gcd(a, b))
-    except:
-        break
+
+a, b = map(int, input().split())
+print(math.gcd(a, b))
 
 """
-while True:
-    try:
         a, b= map(int, input().split())
         while True:
             if b > a:
@@ -26,7 +21,5 @@ while True:
                 print(b)
                 break
             else:
-                a -= int(a/b)*b
-    except:
-        break
+                a = a % b
 """

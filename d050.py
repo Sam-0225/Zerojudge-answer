@@ -3,4 +3,3 @@
 
 
 print((int(input())+9) % 24)
-
