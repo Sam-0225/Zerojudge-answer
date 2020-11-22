@@ -10,7 +10,7 @@ Created on Sat Apr  6 19:53:44 2019
 while True:
     try:
         s = input()
-        print("yes" if s == s[::-1] else "no")
+        print('yes' if s == s[::-1] else 'no')
     except:
         break
 

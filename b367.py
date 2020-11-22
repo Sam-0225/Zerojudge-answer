@@ -6,15 +6,16 @@
 #     for _ in range(c):
 #         a.append(list(map(int, input().split())))
 #     flag = True
-#     for i in range(c*d//2):
-#         for j in range(c*d//2):
-#             if a[i][j] != a[c-i-1][d-j-1]:
+#     for i in range(c):
+#         for j in range(d):
+#             if a[i][j] != a[c-1-i][d-1-j]:
 #                 flag = False
 #                 break
 #     if flag:
 #         print('go forward')
 #     else:
 #         print('keep defending')
+
 #方法二
 n = int(input())
 for _ in range(n):

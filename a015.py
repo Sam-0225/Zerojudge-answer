@@ -16,7 +16,7 @@ while True:
                 mat[i][j] = row[j]
         for i in range(n):
             for j in range(m):
-                print(mat[j][i], " ", sep="", end="")
+                print(mat[j][i], ' ', sep='', end='')
             print()
 
     except:

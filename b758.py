@@ -13,7 +13,7 @@ if m < 30:
     m += 30
 else:
     h = (h + 3) % 24
-    m = (m + 30) % 60
+    m -= 30
 if len(str(h)) == 1:
     h = '0' + str(h)
 if len(str(m)) == 1:

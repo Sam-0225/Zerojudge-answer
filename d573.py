@@ -10,3 +10,16 @@ while True:
         print(a[target])
     except:
         break
+
+# while True:
+#     try:
+#         x = int(input())
+#         a = []
+#         for i in range(x):
+#             a.append(list(map(int, input().split()))[2:])
+#         y = int(input())
+#         for i in range(len(a)):
+#             if y in a[i]:
+#                 print(i + 1)
+#     except:
+#         break
