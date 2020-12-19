@@ -21,7 +21,7 @@ def romanToInt(s):
             sum -= ROMANSdict[s[i]]
         else:
             sum += ROMANSdict[s[i]]
-    return sum + ROMANSdict[s[len(s) - 1]]
+    return sum + ROMANSdict[s[-1]]
 
 
 def roman(number):
@@ -39,7 +39,7 @@ def roman(number):
               ('IV', 4),
               ('I', 1))
 
-    s = ""
+    s = ''
     for roman, value in ROMANS:
         while number >= value:
             number -= value
@@ -49,10 +49,10 @@ def roman(number):
 
 while True:
     try:
-        a, b = map(str, input().split())
+        a, b = input().split()
         answer = roman(abs(romanToInt(a) - romanToInt(b)))
-        if answer == "":
-            print("ZERO")
+        if answer == '':
+            print('ZERO')
         else:
             print(answer)
     except:

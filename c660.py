@@ -6,3 +6,4 @@ while True:
                 print(a[i].upper().join([a[:i], a[i+1:]]))
     except:
         break
+
